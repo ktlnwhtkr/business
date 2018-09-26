@@ -1,1 +1,1 @@
-# business
+# Simple business website

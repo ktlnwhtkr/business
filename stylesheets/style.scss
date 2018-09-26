@@ -1,0 +1,399 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+p {
+  color: #333;
+}
+
+a {
+  color: #174e53;
+}
+
+a:hover {
+  color: #174e53;
+}
+
+h2 {
+  padding-top: 50px;
+  color: #174e53;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Lora', serif;
+}
+
+h3 {
+  padding-top: 50px;
+  color: #174e53;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Lora', serif;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-family: 'Lora', serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 35px !important;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-toggler .fa-bars {
+  color: #fff;
+}
+
+.top-nav {
+  background-color: #174e53;
+}
+
+.top-nav .nav-item .nav-link {
+	color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.top-nav .nav-link:hover {
+	color: #379e5c;
+}
+
+.top-nav .dropdown-menu {
+	background-color: #fff;
+	color: #fff;
+}
+
+.btn-search {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  background: #1c7980;
+}
+
+.carousel {
+  left: 0px;
+  height: 85vh;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-inner .carousel-item{
+  height: 100%;
+}
+
+.carousel-caption {
+  top: 200px;
+}
+
+.carousel-caption h5 {
+  font-size: 70px;
+  line-height: 85px;
+  padding-bottom: 20px;
+  font-family: 'Lora', serif;
+}
+
+.carousel-caption p {
+  font-size: 25px;
+  color: #fff;
+}
+
+.overlay {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ z-index: 2;
+ background: #379e5c; /* Old browsers */
+ background: -moz-linear-gradient(left, #379e5c 0%, #174e53 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(left, #379e5c 0%,#174e53 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to right, #379e5c 0%,#174e53 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ opacity: .9;
+}
+
+.carousel-caption .btn {
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'Lora', serif;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  background: #ffd001; /* Old browsers */
+  background: -moz-linear-gradient(left, #ffd001 1%, #ffa801 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ffd001 1%,#ffa801 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ffd001 1%,#ffa801 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.process {
+  padding-bottom: 80px;
+  padding-top: 30px;
+}
+
+.process h2 {
+  padding-top: 50px;
+  position: relative;
+  color: #174e53;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Lora', serif;
+}
+
+.process h3 {
+  color: #379e5c;
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+
+.process p {
+  text-align: center;
+}
+
+.grey-section {
+  background: #f2f2f2;
+  width: 100vw;
+  text-align: left;
+  padding-bottom: 100px;
+  padding-top: 30px;
+}
+
+.grey-section h2 {
+  padding-top: 50px;
+  position: relative;
+  color: #174e53;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Lora', serif;
+}
+
+.grey-section p {
+  padding-top: 20px;
+}
+
+.grey-section img {
+  padding-top: 30px;
+}
+
+.fa-sticky-note, .fa-thumbs-up, .fa-university {
+    color: #379E5C;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.white-section {
+  padding-bottom: 100px;
+  padding-top: 30px
+}
+
+.white-section h2 {
+  padding-top: 50px;
+  position: relative;
+  color: #174e53;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Lora', serif;
+}
+
+.white-section h3 {
+  color: #379e5c;
+  padding-top: 20px;
+  font-family: 'Lora', serif;
+  text-align: left;
+}
+
+.white-section p {
+  text-align: left;
+}
+
+
+.footer-img {
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative;
+  text-align: center;
+}
+
+.fa-home, .fa-calendar-alt, .fa-bell {
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.footer-img h3 {
+  padding-top: 50px;
+  position: relative;
+  color: #fff;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Lora', serif;
+}
+
+.footer-img p {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+.footer-img .btn {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'Lora', serif;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  background: #ffd001; /* Old browsers */
+  background: -moz-linear-gradient(left, #ffd001 1%, #ffa801 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ffd001 1%,#ffa801 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ffd001 1%,#ffa801 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.footer-image-full {
+  position: relative;
+  z-index: 1;
+  background: url("https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?cs=srgb&dl=architectural-design-architecture-ceiling-380768.jpg&fm=jpg") center center no-repeat;
+  background-size: cover;
+  
+  &:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #379e5c; /* Old browsers */
+  background: -moz-linear-gradient(left, #379e5c 0%, #174e53 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #379e5c 0%,#174e53 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #379e5c 0%,#174e53 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	opacity: .9;
+}
+}
+
+.footer-form h2 {
+  padding-top: 50px;
+  position: relative;
+  color: #174e53;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Lora', serif;
+}
+
+.footer-form .btn {
+  margin-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'Lora', serif;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  background: #ffd001; /* Old browsers */
+  background: -moz-linear-gradient(left, #ffd001 1%, #ffa801 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ffd001 1%,#ffa801 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ffd001 1%,#ffa801 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.footer-bottom {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f6f6f6;
+}
+
+.footer-bottom ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-bottom a {
+  color: #379e5c;
+}
+
+.footer-bottom a:hover {
+  color: #174e53;
+}
+
+.footer-bottom h4 {
+  color: #174e53;
+}
+
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+  .carousel {
+    left: 0px;
+    height: 35vh;
+  }
+  
+  .carousel-inner {
+    height: 100%;
+  }
+  
+  .carousel-inner .carousel-item{
+    height: 100%;
+  }
+
+
+  .white-section h3 {
+    text-align: center;
+  }
+  
+  .white-section p {
+    text-align: center;
+  }
+
+ }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+  .carousel {
+    left: 0px;
+    height: 35vh;
+  }
+  
+  .carousel-inner {
+    height: 100%;
+  }
+  
+  .carousel-inner .carousel-item{
+    height: 100%;
+  }
+  
+ }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+
+  .carousel-caption {
+    top: 100px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 50px;
+    line-height: 55px;
+    padding-bottom: 20px;
+    font-family: 'Lora', serif;
+  }
+  
+ }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+  
+ }
